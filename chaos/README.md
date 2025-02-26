@@ -71,7 +71,7 @@ SELECT
     q.form_id,
     q.title,
     q.question_type,
-    COALESCE(array_agg(qo.option), ARRAY[NULL]) AS options
+    ARRAY_AGG(qo.option) AS options
 FROM questions q
 LEFT JOIN question_options qo
 ON q.id = qo.question_id
