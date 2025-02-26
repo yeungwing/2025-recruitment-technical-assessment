@@ -8,7 +8,7 @@ export default function BuildingCard(
   { name, rooms_available, image }: BuildingCardProps
 ) {
   return (
-    <div className='relative h-96 rounded-lg overflow-hidden'>
+    <div className='relative min-h-[300px] sm:min-h-[350px] md:h-96 rounded-lg overflow-hidden'>
       <img 
         src={image}
         alt={name}
