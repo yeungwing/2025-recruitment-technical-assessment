@@ -1,0 +1,11 @@
+To view solution:
+1. cd freerooms-frontend
+2. npm i
+3. npm run dev
+
+or
+
+1. cd freerooms-frontend
+2. npm i
+3. npm run build
+4. npm run preview
