@@ -1,4 +1,4 @@
-import { Search, Map, GridView, DarkMode } from '@mui/icons-material';
+import { Search, Map, GridViewRounded, DarkMode } from '@mui/icons-material';
 import { useState } from 'react';
 
 export default function NavBar() {
@@ -24,7 +24,7 @@ export default function NavBar() {
           style={{ fontSize: '2.5rem' }}
           className='border border-orange-400 rounded-sm p-2'
         />
-        <GridView
+        <GridViewRounded
           style={{ fontSize: '2.5rem' }}
           className='text-white bg-orange-500 rounded-sm p-2'
         />
